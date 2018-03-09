@@ -6,7 +6,9 @@
   "author": "George Spake <gpspake@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node ./lib/index.js",
+    "build": "babel src -d lib",
+    "build:watch": "babel src -d lib --watch"
   },
   "dependencies": {
     "babel-cli": "^6.26.0"
