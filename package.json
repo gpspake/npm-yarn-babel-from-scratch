@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/gpspake/npm-yarn-babel-from-scratch.git",
   "author": "George Spake <gpspake@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  }
 }
