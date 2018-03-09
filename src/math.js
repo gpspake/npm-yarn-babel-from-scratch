@@ -1,9 +1,2 @@
-var exports = module.exports = {}
-
-exports.addTwo = function (n) {
-  return n + 2;
-};
-
-exports.multiplyByFour = function (n) {
-  return n * 4;
-};
+export const addTwo = n => n + 2;
+export const multiplyByFour = n => n * 4;
