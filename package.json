@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node ./lib/index.js",
-    "build": "babel src -d lib",
+    "build": "BABEL_ENV=production babel src -d lib",
     "build:watch": "babel src -d lib --watch"
   },
   "dependencies": {
