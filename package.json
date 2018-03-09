@@ -1,0 +1,8 @@
+{
+  "name": "npm-yarn-babel-from-scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gpspake/npm-yarn-babel-from-scratch.git",
+  "author": "George Spake <gpspake@gmail.com>",
+  "license": "MIT"
+}
