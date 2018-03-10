@@ -8,7 +8,9 @@
   "scripts": {
     "start": "node ./lib/index.js",
     "build": "BABEL_ENV=production babel src -d lib",
-    "build:watch": "babel src -d lib --watch"
+    "build:watch": "babel src -d lib --watch",
+    "webpack": "webpack src/index.js --output dist/bundle.js --mode development",
+    "webpack:dist": "webpack src/index.js --output dist/bundle.js --mode production"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
